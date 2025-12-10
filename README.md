@@ -112,26 +112,26 @@ Slides [Clean Code](files/Clean-code.pptx)
 
 ---
 
-# 3. Et la charge cognitive dans tout ça ?
+## 3. Et la charge cognitive dans tout ça ?
 On va parler cerveau [ici](clean-code/Clean%20Code%20du%20point%20de%20vue%20de%20la%20cognition.pptx)
 
-# **4. Linters**
-## **Connect**
+## **4. Linters**
+### **Connect**
 Web Hunt : 
 - Qu'est-ce qu'un `Linter` ?
 - Qu'est-ce que l'analyse static de code ?
 
-## **Concepts**
+### **Concepts**
 * Explication interactive :
     * Pourquoi c’est utile dans une équipe ?
     * Différence entre linter & formatter
 * Demo `SonarCloud` [ici](https://sonarcloud.io/project/overview?id=ythirion_jurassic-code)
 
-## **Concrete practice**
+### **Concrete practice**
 - Jour 7 du calendrier de l'Avent [ici](https://coda-school.github.io/advent-2025/?day=07).
 - Tester [`phpstan`](https://phpstan.org/) / [`SonarQube for IDE`](https://www.sonarsource.com/products/sonarqube/ide/)
 
-## **Conclusion**
+### **Conclusion**
 * Retour individuel :
   → “Quelle règle du linter trouves-tu la plus utile et pourquoi ?”
 
@@ -139,7 +139,6 @@ Web Hunt :
 
 ## **5. Itérer grâce aux tests ?**
 ### **Connect - MythBusters**
-## Connect - MythBusters
 In small groups, categorize each sentence about Unit tests in :
 - Myth
 - Truth
@@ -193,7 +192,7 @@ In small groups, categorize each sentence about Unit tests in :
     - Bugs detected earlier are easier to fix
 </details>
 
-## **Concepts**
+### **Concepts**
 * Courte explication :
     * But d’un test
     * La [pyramide de tests](https://martinfowler.com/articles/practical-test-pyramid.html)
@@ -208,11 +207,11 @@ In small groups, categorize each sentence about Unit tests in :
 
 [Infographie "Unit Testing Principles, Practices, and Patterns"](files/Unit%20Testing%20Principles%2C%20Practices%2C%20and%20Patterns.pdf)
 
-## **Concrete Practice**
+### **Concrete Practice**
 [“Mon premier test automatisé”](unit-tests-intro/README.md)
 * Bonus : faire échouer volontairement un test → ils voient l’intérêt immédiat.
 
-## **Conclusion**
+### **Conclusion**
 * Question finale :
   → “Quel type de test a le plus de valeur à ton niveau actuel ? Pourquoi ?”
 
