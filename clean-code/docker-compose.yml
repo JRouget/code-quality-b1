@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  php-apache:
+    image: php:8.2-apache
+    container_name: php-dev
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/var/www/html  # Utilisation du named volume
+    restart: unless-stopped
