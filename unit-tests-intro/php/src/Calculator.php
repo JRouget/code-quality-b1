@@ -26,7 +26,6 @@ class Calculator {
         }
         return $this->supportedOperators[$operator]($a, $b);
     }
-
 }
 
 ?>
