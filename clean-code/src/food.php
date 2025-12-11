@@ -5,11 +5,6 @@ class Food {
         private bool $approvedForConsumption;
             private ?int $inspectorId;
 
-    public function __construct(DateTime $expirationDate, bool $approvedForConsumption, ?int $inspectorId) {
- $this->expirationDate = $expirationDate;        $this->approvedForConsumption = $approvedForConsumption; $this->inspectorId = $inspectorId;
-    }
-
-
     public function isEdible(): bool { $now = new DateTime();
         if($this->expirationDate > $now && $this->approvedForConsumption === true && $this->inspectorId !== null) {
             return true;
